@@ -10,21 +10,25 @@ body {
 
 h1 {
   font-size: 96px;
+  text-align: center;
 }
 
 h2 {
   font-size: 48px;
+  text-align: center;
 }
 
 h3 {
   font-size: 24px;
   opacity: 0.7;
+  text-align: center;
 }
 
 p {
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
+  text-align: center;
 }
 
 .navigation-links {

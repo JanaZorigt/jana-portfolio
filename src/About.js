@@ -3,11 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <div className="About">
-      <h1 class="text-center">About me</h1>
-      <h3 class="text-center">
-        Front-end developer from Ulaanbaatar, Mongolia
-      </h3>
-      <div class="about-paragraph text-center">
+      <div className="about-paragraph">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
           aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
@@ -15,8 +11,6 @@ export default function About() {
           blanditiis harum.
         </p>
       </div>
-
-      
     </div>
   );
 }
