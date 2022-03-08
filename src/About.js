@@ -5,10 +5,9 @@ export default function About() {
     <div className="About">
       <div className="about-paragraph">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-          aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-          alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-          blanditiis harum.
+          I'm currently seeking new opportunities in front-end development. I'm
+          open to work remotely and have flexible hours. I'm highly skilled in
+          JavaScript and React.
         </p>
       </div>
     </div>

@@ -14,7 +14,8 @@ export default function App() {
 
         <About />
         <Projects />
-        <div className="footer">
+
+        <div className="footer mt-5">
           <h2>📮 Contact me</h2>
           <a href="mailto:janazorigt@gmail.com" className="email-link">
             janazorigt@gmail.com

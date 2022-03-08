@@ -62,9 +62,11 @@ p {
   display: block;
 }
 
-.yoga-link,
+.architecture-link,
 .weather-link,
-.yogurt-link {
+.restaurant-link,
+.react-weather-link,
+.react-dictionary-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
@@ -109,17 +111,21 @@ p {
     text-align: center;
   }
 
-  .yoga-link,
+  .architecture-link,
   .weather-link,
-  .yogurt-link {
+  .restaurant-link,
+  .react-weather-link,
+  .react-dictionary-link {
     display: block;
     text-align: center;
     margin: 0 20px;
   }
 
-  .yoga-image,
+  .architecture-image,
+  .restaurant-image,
   .weather-image,
-  .yogurt-image {
+  .react-weather-image,
+  .react-dictionary-image {
     display: none;
   }
 }
