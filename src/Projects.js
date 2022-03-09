@@ -7,7 +7,7 @@ export default function Projects() {
         <div className="row mt-5">
           <div className="col-md-6">
             <img
-              src="Architecture.png"
+              src="images/Architecture.png"
               alt="Architecture"
               className="architecture-image img-fluid rounded"
             />
@@ -60,7 +60,7 @@ export default function Projects() {
           </div>
           <div className="col-md-6">
             <img
-              src="Weather.png"
+              src="images/Weather.png"
               alt="Weather project"
               className="weather-image img-fluid rounded"
             />
@@ -70,7 +70,7 @@ export default function Projects() {
         <div className="row mt-5">
           <div className="col-md-6">
             <img
-              src="Restaurant.png"
+              src="images/Restaurant.png"
               alt="Loving Hut Website"
               className="restaurant-image img-fluid rounded"
             />
@@ -122,7 +122,7 @@ export default function Projects() {
           </div>
           <div className="col-md-6">
             <img
-              src="React Weather.png"
+              src="images/React Weather.png"
               alt="React Weather App"
               className="react-weather-image img-fluid rounded"
             />
@@ -132,7 +132,7 @@ export default function Projects() {
         <div className="row mt-5">
           <div className="col-md-6">
             <img
-              src="React Dictionary.png"
+              src="images/React Dictionary.png"
               alt="React Dictionary App"
               className="react-dictionary-image img-fluid rounded"
             />

@@ -4,62 +4,42 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-body {
+.container {
   margin: 60px auto;
 }
 
-h1 {
+.About .hi {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.About h1 {
   font-size: 96px;
   text-align: center;
 }
 
-h2 {
-  font-size: 48px;
+.About h3 {
   text-align: center;
 }
 
-h3 {
-  font-size: 24px;
-  opacity: 0.7;
-  text-align: center;
-}
-
-p {
+.About p {
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
 }
 
-.navigation-links {
-  margin-top: 40px;
-  display: flex;
-  justify-content: center;
-}
-
-.navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-
-.contact-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-
-.homepage-link {
-  color: var(--primary-color);
+.Projects h2 {
+  font-size: 48px;
   text-align: center;
-  display: block;
+}
+
+.Projects p {
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .architecture-link,
@@ -74,15 +54,6 @@ p {
   border-radius: 4px;
   text-decoration: none;
   text-transform: capitalize;
-}
-
-.about-paragraph {
-  display: flex;
-  margin: 30px 0;
-}
-
-.about-paragraph p {
-  margin: 10px;
 }
 
 .email-link {
