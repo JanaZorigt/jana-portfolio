@@ -23,7 +23,7 @@ export default function Projects() {
             </p>
             <div className="mt-5">
               <a
-                href="https://github.com/JanaZorigt"
+                href="https://dreamy-heisenberg-db9660.netlify.app/"
                 className="architecture-link"
                 title="Architecture project"
                 target="_blank"
