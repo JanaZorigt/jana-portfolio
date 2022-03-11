@@ -10,43 +10,33 @@
   margin: 60px auto;
 }
 
-.About .hi {
-  text-align: center;
-  font-size: 48px;
-  font-weight: 500;
+.hi,
+h1,
+h2,
+h3 {
   font-family: "Playfair Display", serif;
+  text-align: center;
 }
 
-.About h1 {
+.hi {
+  font-size: 48px;
+}
+
+h1 {
   font-size: 96px;
-  text-align: center;
-  font-family: "Playfair Display", serif;
 }
 
-.About h3 {
-  text-align: center;
-  font-family: "Playfair Display", serif;
-  font-style: italic;
-}
-
-.About p {
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-}
-
-.Projects h2 {
+h2 {
   font-size: 48px;
-  text-align: center;
-  font-family: "Playfair Display", serif;
+  margin: 50px auto 20px;
 }
 
-.Projects p {
-  border-radius: 4px;
+h3 {
+  font-size: 36px;
+}
+
+p {
   font-size: 18px;
-  line-height: 1.5;
   text-align: center;
   font-family: "Poppins", sans-serif;
 }
@@ -62,7 +52,19 @@
   padding: 20px 15px;
   border-radius: 4px;
   text-decoration: none;
-  text-transform: capitalize;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.basics-image,
+.plus-image,
+.responsive-image,
+.react-image {
+  display: block;
+  margin: 0 auto;
 }
 
 .email-link {
@@ -78,17 +80,25 @@
 }
 
 @media (max-width: 576px) {
+  .hi {
+    font-size: 24px;
+  }
+
   h1 {
     font-size: 48px;
   }
 
   h2 {
-    font-size: 32px;
+    font-size: 36px;
     text-align: center;
   }
 
+  h3 {
+    font-size: 18px;
+  }
+
   p {
-    text-align: center;
+    font-size: 15px;
   }
 
   .architecture-link,
@@ -98,14 +108,6 @@
   .react-dictionary-link {
     display: block;
     text-align: center;
-    margin: 0 20px;
-  }
-
-  .architecture-image,
-  .restaurant-image,
-  .weather-image,
-  .react-weather-image,
-  .react-dictionary-image {
-    display: none;
+    margin: 0 35px;
   }
 }
