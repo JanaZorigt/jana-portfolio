@@ -4,13 +4,24 @@ export default function Projects() {
   return (
     <div className="Projects">
       <div className="container">
+        <h2>Projects I've been working on:</h2>
         <div className="row">
           <div className="col-sm">
-            <h2>Chicago Architecture</h2>
+            <h3 className="mt-5">
+              Chicago
+              <br />
+              Architecture
+            </h3>
             <img
               src="images/Architecture.png"
               alt="Architecture project"
               className="architecture-image img-fluid rounded"
+            />
+            <p className="mt-3">Technologies used:</p>
+            <img
+              src="images/Basics.png"
+              alt="Basics"
+              className="basics-image img-fluid rounded"
             />
             <div className="btn mt-3">
               <a
@@ -23,20 +34,22 @@ export default function Projects() {
                 View the Page
               </a>
             </div>
-            <p className="mt-3">Technologies used:</p>
-            <img
-              src="images/Basics.png"
-              alt="Basics"
-              className="basics-image img-fluid rounded"
-            />
           </div>
 
           <div className="col-sm">
-            <h2>Weather Application</h2>
+            <h3 className="mt-5">
+              Weather <br /> Application
+            </h3>
             <img
               src="images/Weather.png"
               alt="Weather project"
               className="weather-image img-fluid rounded"
+            />
+            <p className="mt-3">Technologies used:</p>
+            <img
+              src="images/Plus.png"
+              alt="Plus"
+              className="plus-image img-fluid rounded"
             />
             <div className="btn mt-3">
               <a
@@ -49,20 +62,22 @@ export default function Projects() {
                 View the Page
               </a>
             </div>
-            <p className="mt-3">Technologies used:</p>
-            <img
-              src="images/Plus.png"
-              alt="Plus"
-              className="plus-image img-fluid rounded"
-            />
           </div>
 
           <div className="col-sm">
-            <h2>Restaurant Website</h2>
+            <h3 className="mt-5">
+              Restaurant <br /> Website
+            </h3>
             <img
               src="images/Restaurant.png"
               alt="Loving Hut Website"
               className="restaurant-image img-fluid rounded"
+            />
+            <p className="mt-3">Technologies used:</p>
+            <img
+              src="images/Responsive.png"
+              alt="Responsive"
+              className="responsive-image img-fluid rounded"
             />
             <div className="btn mt-3">
               <a
@@ -75,22 +90,25 @@ export default function Projects() {
                 View the Page
               </a>
             </div>
-            <p className="mt-3">Technologies used:</p>
-            <img
-              src="images/Responsive.png"
-              alt="Responsive"
-              className="responsive-image img-fluid rounded"
-            />
           </div>
         </div>
 
         <div className="row">
           <div className="col-sm">
-            <h2>Weather App (React)</h2>
+            <h3 className="mt-5">
+              Weather App <br />
+              (React)
+            </h3>
             <img
               src="images/React Weather.png"
               alt="React Weather App"
               className="react-weather-image img-fluid rounded"
+            />
+            <p className="mt-3">Technologies used:</p>
+            <img
+              src="images/React.png"
+              alt="React"
+              className="react-image img-fluid rounded"
             />
             <div className="btn mt-3">
               <a
@@ -103,20 +121,23 @@ export default function Projects() {
                 View the Page
               </a>
             </div>
+          </div>
+
+          <div className="col-sm">
+            <h3 className="mt-5">
+              Dictionary App <br />
+              (React)
+            </h3>
+            <img
+              src="images/React Dictionary.png"
+              alt="React Dictionary App"
+              className="react-dictionary-image img-fluid rounded"
+            />
             <p className="mt-3">Technologies used:</p>
             <img
               src="images/React.png"
               alt="React"
               className="react-image img-fluid rounded"
-            />
-          </div>
-
-          <div className="col-sm">
-            <h2>Dictionary App (React)</h2>
-            <img
-              src="images/React Dictionary.png"
-              alt="React Dictionary App"
-              className="react-dictionary-image img-fluid rounded"
             />
             <div className="btn mt-3">
               <a
@@ -129,12 +150,6 @@ export default function Projects() {
                 View the Page
               </a>
             </div>
-            <p className="mt-3">Technologies used:</p>
-            <img
-              src="images/React.png"
-              alt="React"
-              className="react-image img-fluid rounded"
-            />
           </div>
         </div>
       </div>

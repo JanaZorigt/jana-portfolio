@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
 
 :root {
   --primary-color: #6c63ff;
@@ -10,35 +10,31 @@
   margin: 60px auto;
 }
 
-.hi,
 h1,
 h2,
 h3 {
-  font-family: "Playfair Display", serif;
+  font-family: "Bree Serif", serif;
   text-align: center;
-}
-
-.hi {
-  font-size: 48px;
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 80px;
 }
 
 h2 {
-  font-size: 48px;
-  margin: 50px auto 20px;
+  font-size: 50px;
 }
 
 h3 {
-  font-size: 36px;
+  font-size: 35px;
 }
 
-p {
-  font-size: 18px;
-  text-align: center;
+p,
+.footer-text {
   font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  opacity: 0.8;
 }
 
 .architecture-link,
@@ -80,34 +76,19 @@ p {
 }
 
 @media (max-width: 576px) {
-  .hi {
-    font-size: 24px;
-  }
-
   h1 {
-    font-size: 48px;
+    font-size: 50px;
   }
 
   h2 {
-    font-size: 36px;
-    text-align: center;
+    font-size: 30px;
   }
 
   h3 {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   p {
-    font-size: 15px;
-  }
-
-  .architecture-link,
-  .weather-link,
-  .restaurant-link,
-  .react-weather-link,
-  .react-dictionary-link {
-    display: block;
-    text-align: center;
-    margin: 0 35px;
+    font-size: 16px;
   }
 }
