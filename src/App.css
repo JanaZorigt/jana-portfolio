@@ -2,17 +2,20 @@
 
 :root {
   --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --secondary-color: white;
+  --box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 .container {
-  margin: 60px auto;
+  margin: 90px auto 60px;
+  max-width: 1200px;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
   font-family: "Bree Serif", serif;
   text-align: center;
 }
@@ -22,37 +25,45 @@ h1 {
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 30px;
 }
 
 h3 {
-  font-size: 35px;
+  font-size: 50px;
 }
 
-p,
-.footer-text {
+p {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   line-height: 1.8;
+  text-align: center;
+  font-weight: bold;
+}
+
+.about-paragraph {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.8;
   opacity: 0.8;
+  text-align: justify;
+  text-indent: 35px;
+  letter-spacing: 1.5px;
 }
 
-.architecture-link,
-.weather-link,
-.restaurant-link,
-.react-weather-link,
-.react-dictionary-link {
-  background: var(--primary-color);
+.jana-image {
+  max-width: 500px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.section {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  border-radius: 20px;
   box-shadow: var(--box-shadow);
-  color: white;
-  padding: 20px 15px;
-  border-radius: 4px;
-  text-decoration: none;
-}
-
-.btn {
-  display: flex;
-  justify-content: center;
+  margin: 10px 5px;
 }
 
 .basics-image,
@@ -63,6 +74,23 @@ p,
   margin: 0 auto;
 }
 
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  font-size: 35px;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover,
+.email-link:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
 .email-link {
   display: flex;
   justify-content: center;
@@ -71,24 +99,25 @@ p,
   text-decoration: none;
 }
 
-.email-link:hover {
-  text-decoration: underline;
-}
-
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 50px;
   }
 
   h2 {
-    font-size: 30px;
-  }
-
-  h3 {
     font-size: 20px;
   }
 
-  p {
+  h3 {
+    font-size: 40px;
+  }
+
+  a {
+    font-size: 30px;
+  }
+
+  .about-paragraph {
     font-size: 16px;
+    line-height: 1.6;
   }
 }

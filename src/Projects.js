@@ -4,14 +4,22 @@ export default function Projects() {
   return (
     <div className="Projects">
       <div className="container">
-        <h2>Projects I've been working on:</h2>
+        <h3 className="mb-5">Projects I've been working on:</h3>
         <div className="row">
-          <div className="col-sm">
-            <h3 className="mt-5">
-              Chicago
-              <br />
-              Architecture
-            </h3>
+          <div className="col-sm section">
+            <h4 className="btn">
+              <a
+                href="https://dreamy-heisenberg-db9660.netlify.app/"
+                className="architecture-link"
+                title="Architecture project"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Chicago
+                <br />
+                Architecture
+              </a>
+            </h4>
             <img
               src="images/Architecture.png"
               alt="Architecture project"
@@ -23,23 +31,20 @@ export default function Projects() {
               alt="Basics"
               className="basics-image img-fluid rounded"
             />
-            <div className="btn mt-3">
+          </div>
+
+          <div className="col-sm section">
+            <h4 className="btn">
               <a
-                href="https://dreamy-heisenberg-db9660.netlify.app/"
-                className="architecture-link"
-                title="Architecture project"
+                href="https://heuristic-carson-e239b2.netlify.app/"
+                className="weather-link"
+                title="Weather project"
                 target="_blank"
                 rel="noreferrer"
               >
-                View the Page
+                Weather <br /> Application
               </a>
-            </div>
-          </div>
-
-          <div className="col-sm">
-            <h3 className="mt-5">
-              Weather <br /> Application
-            </h3>
+            </h4>
             <img
               src="images/Weather.png"
               alt="Weather project"
@@ -51,23 +56,20 @@ export default function Projects() {
               alt="Plus"
               className="plus-image img-fluid rounded"
             />
-            <div className="btn mt-3">
+          </div>
+
+          <div className="col-sm section">
+            <h4 className="btn">
               <a
-                href="https://heuristic-carson-e239b2.netlify.app/"
-                className="weather-link"
-                title="Weather project"
+                href="https://sleepy-beaver-bd36a7.netlify.app/"
+                className="restaurant-link"
+                title="Loving Hut Website"
                 target="_blank"
                 rel="noreferrer"
               >
-                View the Page
+                Restaurant <br /> Website
               </a>
-            </div>
-          </div>
-
-          <div className="col-sm">
-            <h3 className="mt-5">
-              Restaurant <br /> Website
-            </h3>
+            </h4>
             <img
               src="images/Restaurant.png"
               alt="Loving Hut Website"
@@ -79,26 +81,23 @@ export default function Projects() {
               alt="Responsive"
               className="responsive-image img-fluid rounded"
             />
-            <div className="btn mt-3">
-              <a
-                href="https://sleepy-beaver-bd36a7.netlify.app/"
-                className="restaurant-link"
-                title="Loving Hut Website"
-                target="_blank"
-                rel="noreferrer"
-              >
-                View the Page
-              </a>
-            </div>
           </div>
         </div>
 
         <div className="row">
-          <div className="col-sm">
-            <h3 className="mt-5">
-              Weather App <br />
-              (React)
-            </h3>
+          <div className="col-sm section">
+            <h4 className="btn">
+              <a
+                href="https://nostalgic-brattain-8ba926.netlify.app/"
+                className="react-weather-link"
+                title="React Weather App"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Weather App <br />
+                (React)
+              </a>
+            </h4>
             <img
               src="images/React Weather.png"
               alt="React Weather App"
@@ -110,24 +109,21 @@ export default function Projects() {
               alt="React"
               className="react-image img-fluid rounded"
             />
-            <div className="btn mt-3">
+          </div>
+
+          <div className="col-sm section">
+            <h4 className="btn">
               <a
-                href="https://nostalgic-brattain-8ba926.netlify.app/"
-                className="react-weather-link"
-                title="React Weather App"
+                href="https://pedantic-liskov-c3f65c.netlify.app/"
+                className="react-dictionary-link"
+                title="React Dictionary App"
                 target="_blank"
                 rel="noreferrer"
               >
-                View the Page
+                Dictionary App <br />
+                (React)
               </a>
-            </div>
-          </div>
-
-          <div className="col-sm">
-            <h3 className="mt-5">
-              Dictionary App <br />
-              (React)
-            </h3>
+            </h4>
             <img
               src="images/React Dictionary.png"
               alt="React Dictionary App"
@@ -139,17 +135,6 @@ export default function Projects() {
               alt="React"
               className="react-image img-fluid rounded"
             />
-            <div className="btn mt-3">
-              <a
-                href="https://pedantic-liskov-c3f65c.netlify.app/"
-                className="react-dictionary-link"
-                title="React Dictionary App"
-                target="_blank"
-                rel="noreferrer"
-              >
-                View the Page
-              </a>
-            </div>
           </div>
         </div>
       </div>
