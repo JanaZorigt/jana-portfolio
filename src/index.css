@@ -1,6 +1,6 @@
 body {
-  background-image: url(/public/images/Backgrounds.avif);
-  background-position: center;
+  background-image: url(/public/images/Background-1.png);
+  background-position: right;
   background-size: cover;
   -webkit-background-size: cover;
 }

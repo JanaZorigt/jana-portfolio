@@ -9,7 +9,7 @@ export default function Projects() {
           <div className="col-sm section">
             <h4 className="btn">
               <a
-                href="https://dreamy-heisenberg-db9660.netlify.app/"
+                href="https://jana-architecture.netlify.app/"
                 className="architecture-link"
                 title="Architecture project"
                 target="_blank"
@@ -36,7 +36,7 @@ export default function Projects() {
           <div className="col-sm section">
             <h4 className="btn">
               <a
-                href="https://heuristic-carson-e239b2.netlify.app/"
+                href="https://jana-weather-app.netlify.app/"
                 className="weather-link"
                 title="Weather project"
                 target="_blank"
@@ -61,7 +61,7 @@ export default function Projects() {
           <div className="col-sm section">
             <h4 className="btn">
               <a
-                href="https://sleepy-beaver-bd36a7.netlify.app/"
+                href="https://jana-restaurant.netlify.app/"
                 className="restaurant-link"
                 title="Loving Hut Website"
                 target="_blank"
@@ -88,7 +88,7 @@ export default function Projects() {
           <div className="col-sm section">
             <h4 className="btn">
               <a
-                href="https://nostalgic-brattain-8ba926.netlify.app/"
+                href="https://jana-weather-react.netlify.app/"
                 className="react-weather-link"
                 title="React Weather App"
                 target="_blank"
@@ -114,7 +114,7 @@ export default function Projects() {
           <div className="col-sm section">
             <h4 className="btn">
               <a
-                href="https://pedantic-liskov-c3f65c.netlify.app/"
+                href="https://jana-dictionary-react.netlify.app/"
                 className="react-dictionary-link"
                 title="React Dictionary App"
                 target="_blank"
