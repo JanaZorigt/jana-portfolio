@@ -46,13 +46,12 @@ p {
   font-weight: normal;
   line-height: 1.8;
   opacity: 0.8;
-  text-align: justify;
-  text-indent: 35px;
+  text-align: center;
   letter-spacing: 1.5px;
 }
 
 .jana-image {
-  max-width: 500px;
+  max-width: 450px;
   border-radius: 50%;
   display: block;
   margin: 0 auto;
@@ -66,12 +65,18 @@ p {
   margin: 10px 5px;
 }
 
+img {
+  display: block;
+  margin: 0 auto;
+}
+
 .basics-image,
 .plus-image,
 .responsive-image,
 .react-image {
   display: block;
   margin: 0 auto;
+  max-width: 275px;
 }
 
 .btn {
