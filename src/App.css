@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
 
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: white;
+  --primary-color: #824575;
+  --secondary-color: #fbd4c8;
+  --tertiary-color: #faf0e4;
   --box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -18,6 +19,7 @@ h4,
 h5 {
   font-family: "Bree Serif", serif;
   text-align: center;
+  color: var(--primary-color);
 }
 
 h1 {
@@ -32,15 +34,11 @@ h3 {
   font-size: 50px;
 }
 
-p {
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  line-height: 1.8;
-  text-align: center;
-  font-weight: bold;
+h4 {
+  font-size: 35px;
 }
 
-.about-paragraph {
+p {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: normal;
@@ -58,7 +56,7 @@ p {
 }
 
 .section {
-  background-color: var(--secondary-color);
+  background-color: white;
   padding: 20px;
   border-radius: 20px;
   box-shadow: var(--box-shadow);
@@ -76,32 +74,68 @@ img {
 .react-image {
   display: block;
   margin: 0 auto;
-  max-width: 275px;
+  max-width: 250px;
 }
 
-.btn {
+.architecture-link,
+.weather-link,
+.restaurant-link,
+.react-weather-link,
+.react-dictionary-link {
   display: flex;
   justify-content: center;
-}
-
-a {
-  font-size: 35px;
-  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--primary-color);
   text-decoration: none;
   transition: all 100ms ease-in-out;
+  border-radius: 5px;
+  background-color: var(--secondary-color);
+  padding: 15px;
+  margin-top: 15px;
 }
 
-a:hover,
+.architecture-link:hover,
+.weather-link:hover,
+.restaurant-link:hover,
+.react-weather-link:hover,
+.react-dictionary-link:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.email-link {
+  color: var(--primary-color);
+  font-size: 26px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
 .email-link:hover {
   color: blue;
 }
 
-.email-link {
-  display: flex;
-  justify-content: center;
+.social-links a {
+  margin: 0 20px;
   color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+.social-links a:hover {
+  color: var(--secondary-color);
+  background: var(--primary-color);
+}
+
+.code-source a {
+  color: var(--primary-color);
+}
+
+.code-source a:hover {
+  color: blue;
 }
 
 @media (max-width: 768px) {
@@ -117,7 +151,7 @@ a:hover,
     font-size: 40px;
   }
 
-  a {
+  h4 {
     font-size: 30px;
   }
 
