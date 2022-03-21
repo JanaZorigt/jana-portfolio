@@ -26,7 +26,7 @@ export default function Projects() {
             <a
               href="https://jana-architecture.netlify.app/"
               className="architecture-link"
-              title="Architecture project"
+              title="Architecture Project"
               target="_blank"
               rel="noreferrer"
             >
@@ -52,7 +52,7 @@ export default function Projects() {
             <a
               href="https://jana-weather-app.netlify.app/"
               className="weather-link"
-              title="Weather project"
+              title="Weather Project"
               target="_blank"
               rel="noreferrer"
             >
