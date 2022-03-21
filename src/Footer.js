@@ -47,7 +47,7 @@ export default function Footer() {
           rel="noreferrer"
           title="GitHub link"
         >
-          Open-sourced
+          Open-source
         </a>{" "}
         code by Jana Zorigt
       </div>
