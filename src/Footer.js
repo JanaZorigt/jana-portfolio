@@ -26,7 +26,7 @@ export default function Footer() {
           href="https://www.instagram.com/jana_zorigt/"
           target="_blank"
           rel="noreferrer"
-          title="Instragram"
+          title="Instagram"
         >
           <i className="fab fa-instagram"></i>
         </a>
@@ -34,7 +34,7 @@ export default function Footer() {
           href="https://www.linkedin.com/in/janazorigt/"
           target="_blank"
           rel="noreferrer"
-          title="Linkedin"
+          title="LinkedIn"
         >
           <i className="fab fa-linkedin"></i>
         </a>
