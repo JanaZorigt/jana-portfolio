@@ -18,7 +18,7 @@ export default function Footer() {
           href="https://github.com/JanaZorigt"
           target="_blank"
           rel="noreferrer"
-          title="GitHub Profile"
+          title="GitHub"
         >
           <i className="fab fa-github"></i>
         </a>
@@ -26,7 +26,7 @@ export default function Footer() {
           href="https://www.instagram.com/jana_zorigt/"
           target="_blank"
           rel="noreferrer"
-          title="Instragram Profile"
+          title="Instragram"
         >
           <i className="fab fa-instagram"></i>
         </a>
@@ -34,7 +34,7 @@ export default function Footer() {
           href="https://www.linkedin.com/in/janazorigt/"
           target="_blank"
           rel="noreferrer"
-          title="Linkedin Profile"
+          title="Linkedin"
         >
           <i className="fab fa-linkedin"></i>
         </a>

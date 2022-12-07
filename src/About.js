@@ -7,7 +7,7 @@ export default function About() {
         <div className="col">
           <h1>Jana Zorigt</h1>
           <h2>
-            Front-end Developer, <br />
+            Software Engineer, <br />
             based in the United States
           </h2>
           <div className="mt-5 p-3">
